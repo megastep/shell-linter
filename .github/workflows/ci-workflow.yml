@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Update Shellcheck
-        run: ./scripts/download_shellcheck.sh
+        run: ./src/download_shellcheck.sh
       - name: Run tests
         run: ./tests/test_runner
         shell: bash
